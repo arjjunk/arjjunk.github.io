@@ -8,7 +8,7 @@
     width: 900px;
     height: 900px;
     margin-left: 65%;
-    margin-top: 10%;
+    margin-top: 9%;
 }
 
 .container .name{
@@ -36,4 +36,9 @@
     padding-left: 7rem;
     font-size: 2rem;
     margin-left: 78%;
+}
+
+.about a{
+    color: rgb(17, 88, 250);
+
 }
