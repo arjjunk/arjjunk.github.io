@@ -1,0 +1,39 @@
+.container{
+    width: 100vh;
+    height: 100vh;
+}
+
+
+.myPhoto img{
+    width: 900px;
+    height: 900px;
+    margin-left: 65%;
+    margin-top: 10%;
+}
+
+.container .name{
+    position: absolute;
+    margin-top: 15%;
+    color: rgb(84, 84, 83);
+    font-size: 25rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left:7rem;
+    opacity: 50%;
+}
+
+.container .content{
+    position: absolute;
+    margin-top: 35%;
+    padding-left: 7rem;
+    font-size: 2rem;
+    color: rgb(37, 172, 4);
+}
+
+.about{
+    position: absolute;
+    margin-top: 35%;
+    padding-left: 7rem;
+    font-size: 2rem;
+    margin-left: 78%;
+}
