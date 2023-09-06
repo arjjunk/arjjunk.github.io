@@ -12,11 +12,10 @@
 }
 
 .about-title h1{
-    color: rgb(133, 133, 132);
-
+    color: rgb(242, 242, 235);
 }
 .about-content1{
-    width: 100vh;
+    /* width: 100vh; */
     font-size: 2.5rem;
     padding: 15rem 0 0 10rem;
 
@@ -27,7 +26,7 @@ p{
 }
 
 .about-content2{
-    width: 90vh;
+    width: 80vh;
     font-size: 2.5rem;
     margin-left: 100%;
 }
@@ -45,3 +44,33 @@ a{
     font-size: 1.5rem;
 }
 
+@media screen and (max-width: 500px){
+
+    .about-container{
+        width: 100%;
+        height: auto;
+    }
+    .about-container    .about-title{
+        font-size: 1.5rem;
+        text-align: center;
+        position: absolute;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    .about-content1{
+        font-size: 1.2rem;
+        padding: 6rem 0 0 1rem;
+    
+    }
+    .about-content2{
+        width: auto;
+        font-size: 1.2rem;
+        margin-top: 10%;
+        margin-left:0%
+    }
+    a{
+        color: #b48b49;
+        font-size: 1rem;
+    }
+}

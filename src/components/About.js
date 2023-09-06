@@ -28,7 +28,7 @@ const About = () => {
           &lt;Android App Development&gt;<br />
 
         </p>
-        <Link to="#projects" smooth>"View My Projects"</Link>
+        <Link to="#projects" smooth>"View My Projects"</Link><br /><br />
 
       </div>
       </div>
