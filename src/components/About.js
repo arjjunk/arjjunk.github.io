@@ -17,18 +17,24 @@ const About = () => {
           who is very passionate to <br />
           work with exciting people to <br />
           give life to their ideas.<br />
-          */
+          */<br />
         </p>
-        <Link to="#expertise" smooth>"View My Expertise"</Link>
+        <button class="button">
+        <Link to="#expertise" smooth>"Expertise"</Link>
+        </button>
+
+        
       <div className="about-content2">
       <h3>// What I do ???</h3><br/>
         <p>
           &lt;Website Development&gt;<br />
           &lt;Ecommerce Application&gt;<br />
-          &lt;Android App Development&gt;<br />
+          &lt;Android App Development&gt;<br /><br />
 
         </p>
-        <Link to="#projects" smooth>"View My Projects"</Link><br /><br />
+        <button class="button">
+        <Link to="#projects" smooth>"Projects"</Link>
+        </button>
 
       </div>
       </div>
