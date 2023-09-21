@@ -3,6 +3,8 @@ import "./About.css"
 import React from 'react'
 import { HashLink as Link } from "react-router-hash-link"
 
+import Resume from "../assets/Arjun_K.pdf"
+
 const About = () => {
   return (
     <div className="about-container" id="about">
@@ -20,7 +22,7 @@ const About = () => {
           */<br />
         </p>
         <button class="button">
-        <Link to="#expertise" smooth>"Expertise"</Link>
+        <Link to="#expertise" smooth>Expertise</Link>
         </button>
 
         
@@ -33,7 +35,10 @@ const About = () => {
 
         </p>
         <button class="button">
-        <Link to="#projects" smooth>"Projects"</Link>
+        <Link to="#projects" smooth>Projects</Link>
+        </button><br /><br />
+        <button class="button">
+        <a href={Resume} download="Arjun_K.pdf">Download&nbsp;CV</a>
         </button>
 
       </div>

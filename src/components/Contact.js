@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="icons">
         <br />
         <NavLink  to="https://t.me/arjun_gangadhar"><FaTelegram size={50} style={{ color: "#fff", paddingLeft:"1rem"}}></FaTelegram></NavLink><br /><br />
-        <NavLink to=""><FaWhatsapp size={50} style={{ color: "#fff", paddingLeft:"1rem"}}></FaWhatsapp></NavLink>
+        <NavLink to="https://wa.me/917510643820"><FaWhatsapp size={50} style={{ color: "#fff", paddingLeft:"1rem"}}></FaWhatsapp></NavLink>
         <NavLink  to="mailto: arjungangadhar729@gmail.com"> <FaMailBulk size={50} style={{ color: "#fff", paddingLeft:"1rem"}}></FaMailBulk></NavLink><br /><br />
         <NavLink  to="https://github.com/arjungangadhar"> <FaGithub size={50} style={{ color: "#fff", paddingLeft:"1rem"}}></FaGithub></NavLink><br /><br />
         <NavLink  to="https://instagram.com/arjun_.gangadhar?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><FaInstagram size={50} style={{ color: "#fff", paddingLeft:"1rem"}}></FaInstagram></NavLink>
