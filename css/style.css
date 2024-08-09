@@ -104,13 +104,13 @@ body:not(:has(:target)) .terminal-body #home {
     display: block;
   }
 .terminal{
-  margin: 5%;
+  margin: 0 5%;
 }
   .fixed-height{
     height: auto;
   }
   .name{
-    font-size: 0.3rem;
+    font-size: 0.2rem;
   }
   .title{
     font-size: 0.8rem;
