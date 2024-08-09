@@ -15,10 +15,13 @@ ul{
   list-style-type: none;
 }
 
-/* .terminal{
-  margin-top: 5%;
-} */
+.terminal .container .terminal-header{
+  border-radius: 10px 10px 0 0;
+}
 
+.terminal-body{
+  border-radius: 0 0 10px 10px;
+}
 .navbar-toggler.custom-toggler {
   border-color: #ff5733; /* Border color of the toggle button */
 }
