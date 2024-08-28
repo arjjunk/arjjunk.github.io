@@ -103,11 +103,9 @@ body:not(:has(:target)) .terminal-body #home {
   .activities{
     display: none;
   }
-  .top-bar{
-    display: block;
-  }
+
 .terminal{
-  margin: 0 5% 20% 5%;
+  margin: 0 5% 0 5%;
 }
   .fixed-height{
     height: auto;
